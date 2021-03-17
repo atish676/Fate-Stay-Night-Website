@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fate/Stay Night</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="logo4.svg" alt="" width="100" height="50">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fate">Watch Order</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Holy Wars
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Beginning of Wars</a></li>
+                            <li><a class="dropdown-item" href="#">Fourth Holy War</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Fate Route</a></li>
+                            <li><a class="dropdown-item" href="#">Unlimited Blade Works Route</a></li>
+                            <li><a class="dropdown-item" href="#">Heaven's Feel Route</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Masters
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Emiya Shirou</a></li>
+                            <li><a class="dropdown-item" href="#">Tohsaka Rin</a></li>
+                            <li><a class="dropdown-item" href="#">Kotomine Kirei</a></li>
+                            <li><a class="dropdown-item" href="#">Matou Shinji</a></li>
+                            <li><a class="dropdown-item" href="#">Souichirou Kuzuki</a></li>
+                            <li><a class="dropdown-item" href="#">Illyasviel Von Einzbern</a></li>
+                            <li><a class="dropdown-item" href="#">Matou Zouken</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Emiya Kiritsugu</a></li>
+                            <li><a class="dropdown-item" href="#">Tohsaka Tokiyomi</a></li>
+                            <li><a class="dropdown-item" href="#">Keyneth El-Melloi Archibald</a></li>
+                            <li><a class="dropdown-item" href="#">Lord El-Melloi II (Waver Velvet)</a></li>
+                            <li><a class="dropdown-item" href="#">Uryuu Ryuunosuke</a></li>
+                            <li><a class="dropdown-item" href="#">Matou Kariya</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Irisviel Von Einzbern</a></li>
+                            <li><a class="dropdown-item" href="#">Matou Sakura</a></li>
+                            <li><a class="dropdown-item" href="#">Ryuudou Issei</a></li>
+                            <li><a class="dropdown-item" href="#">Luviageleta Edelfelt</a></li>
+                            <li><a class="dropdown-item" href="#">Bazett Fraga McRemitz</a></li>
+                            <li><a class="dropdown-item" href="#">Caren Hortensia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servants
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Saber (Artoria Pendragon)</a></li>
+                            <li><a class="dropdown-item" href="#">Archer (EMIYA)</a></li>
+                            <li><a class="dropdown-item" href="#">Lancer (Cu Chulainn)</a></li>
+                            <li><a class="dropdown-item" href="#">Rider (Medusa)</a></li>
+                            <li><a class="dropdown-item" href="#">Caster (Medea)</a></li>
+                            <li><a class="dropdown-item" href="#">Assassin (Sasaki Kojiro)</a></li>
+                            <li><a class="dropdown-item" href="#">Berserker (Heracles)</a></li>
+                            <li><a class="dropdown-item" href="#">True Assassin (Hassan of Cursed Arm)</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Archer (Gilgamesh)</a></li>
+                            <li><a class="dropdown-item" href="#">Lancer (Diarmuid Ua Duibhne)</a></li>
+                            <li><a class="dropdown-item" href="#">Rider (Alexander The Great)</a></li>
+                            <li><a class="dropdown-item" href="#">Caster (Gilles de Rais)</a></li>
+                            <li><a class="dropdown-item" href="#">Assassin (Hassan of 100 Faces)</a></li>
+                            <li><a class="dropdown-item" href="#">Berserker (Sir Lancelot)</a></li>
+                            <li><a class="dropdown-item" href="#">Avenger (Angra Mainyu)</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fate">
+        <img src="front.jpg" alt="fatego">
+        <div class="fatedetails">
+            <center>
+                <h1>What is Fate?</h1>
+            </center>
+            <br />
+            <article>
+                Fate/Stay Night is an Anime series adapted from the Visual Novel of the same name. Developed by Type-Moon, the plot focuses on a young mage named Emiya Shirou who becomes a Master in a death battle between Servants known as the Holy Grail War.
+            </article>
+            <br />
+            <article>
+                The series has three routes- Fate, Unlimited Blade Works and Heaven's Feel which are to be played in the exact same order. Through each route, Shirou bonds with a different heroine and confronts different mages who participate in the war.
+            </article>
+            <br />
+            <article>
+                The Master-Servant pair who wins the war gets one of their wishes granted by the Holy Grail.
+            </article>
+        </div>
+    </div>
+
+    <div class="creator">
+        <div class="creatordetails">
+            <center>
+                <h1>Genius Behind Everything</h1>
+            </center>
+            <br />
+            <article>
+                Kinoko Nasu, born 28th November, 1973 is a Japanese author best known for his Light Novel- Kara No Kyoukai(Garden of Sinners) and Visual Novels- Tsukihime and Fate/Stay Night.
+            </article>
+            <br />
+            <article>
+                Founder of Type-Moon along with his friend Takashi Takeuchi, he started working on Tsukihime's Visual Novel. Following it's successes he released Fate/Stay Night and Kara No Kyoukai.
+            </article>
+            <br />
+            <article>
+                Few of his other notable works include- Kagetsu Tohya(Sequel to Tsukihime), Fate/Hollow Ataraxia(Sequel to Fate/Stay Night) and Video Game- Fate/Grand Order.
+            </article>
+        </div>
+        <img src="nasu.jpg" alt="kinoko nasu">
+    </div>
+
+    <div class="order" id="fate">
+        <img src="order.jpg" alt="fatego">
+        <div class="orderdetails">
+            <center>
+                <h1>Watch Order</h1>
+            </center>
+            <br />
+            <article>
+                Fate/Stay Night has got tons of adaptations. Spin-Offs, Light Novels, Games, Manga and ofcourse, Anime. Its a complete clusterfuck! That's what makes this series so difficult to get into.
+            </article>
+            <br />
+            <article>
+                However, the series can still be watched and enjoyed and when understood, you come to notice- Its a masterpiece! So its important to know where to begin with although, that's the whole problem. So, the question arises- "Is there not a beginning?" to which
+                I ask- "Do you want the Long version or the Short version?"
+            </article>
+            <br />
+            <div class="version">
+                <center>
+                    <button><a href="#">Short Version</a></button>
+                    <button><a href="#">Long Version</a></button>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <div class="classcards">
+        <div class="classcardsdetails">
+            <center>
+                <h1>Standard Classes</h1>
+            </center>
+            <br />
+            <article>
+                In a Holy War, 7 Servants are summoned to fight against each other. Each Servant has a Class, Active Skills, Passive Skills, and Noble Phantasm. A Servant cannot be repeated by Class thus each servant needs to be from a different Class.
+            </article>
+            <br />
+            <article>
+                Usually, the Servant summoned is from the Standard Class consisting Saber, Archer, Lancer, Rider, Caster, Assassin and Berserker. Saber, Archer and Lancer further getting divided into Knight Class and Rider, Caster, Assassin and Berserker into Cavalry
+                Class.
+            </article>
+            <br />
+            <article>
+                Every Class has some Class Skills giving them an edge against other Servants like Saber has A rank Strength and High Magic Resistance thus becoming a potential enemy to Caster with A rank Mana, but weak against Berserker with Mad Enhancement, a Class
+                Skill which enhances every other skill with the price of losing sanity and draining large amounts of Mana from their Master, thus outfighting Saber.
+            </article>
+            <br />
+            <article>
+                Similarly, Archer and Lancer are potential enemies. Also, Archer's Class Skill, Independent Action allows him to stay alive without any master for few days thus increasing chances of betrayal which can be suppressed using Command Spells.
+            </article>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: A</li>
+                        <li>Endurance: B</li>
+                        <li>Agility: B</li>
+                        <li>Mana: C</li>
+                        <li>Luck: D</li>
+                        <li>Magic Resistance</li>
+                        <li>Riding</li>
+                    </ol>
+                </div>
+                <div><img src="Saber.jpg" alt="saber" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: C</li>
+                        <li>Endurance: C</li>
+                        <li>Agility: C</li>
+                        <li>Mana: E</li>
+                        <li>Luck: E</li>
+                        <li>Magic Resistance</li>
+                        <li>Independent Action</li>
+                    </ol>
+                </div>
+                <div><img src="Archer.jpg" alt="archer" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: B</li>
+                        <li>Endurance: C</li>
+                        <li>Agility: A</li>
+                        <li>Mana: D</li>
+                        <li>Luck: E</li>
+                        <li>Magic Resistance</li>
+                    </ol>
+                </div>
+                <div><img src="Lancer.jpg" alt="lancer" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: D</li>
+                        <li>Endurance: D</li>
+                        <li>Agility: B</li>
+                        <li>Mana: C</li>
+                        <li>Luck: E</li>
+                        <li>Magic Resistance</li>
+                        <li>Riding</li>
+                    </ol>
+                </div>
+                <div><img src="Rider.jpg" alt="rider" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: E</li>
+                        <li>Endurance: E</li>
+                        <li>Agility: C</li>
+                        <li>Mana: A</li>
+                        <li>Luck: B</li>
+                        <li>Item Construction</li>
+                        <li>Territory Creation</li>
+                    </ol>
+                </div>
+                <div><img src="Caster.jpg" alt="caster" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: D</li>
+                        <li>Endurance: D</li>
+                        <li>Agility: B</li>
+                        <li>Mana: E</li>
+                        <li>Luck: B</li>
+                        <li>Presence Concealment</li>
+                    </ol>
+                </div>
+                <div><img src="Assassin.jpg" alt="assassin" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Skills</h4>
+                    <ol class="skills">
+                        <li>Strength: C</li>
+                        <li>Endurance: D</li>
+                        <li>Agility: D</li>
+                        <li>Mana: E</li>
+                        <li>Luck: E</li>
+                        <li>Mad Enhancement</li>
+                    </ol>
+                </div>
+                <div><img src="Berserker.jpg" alt="berserker" class="img"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="extraclasscards">
+        <div class="outer">
+            <div class="inner">
+                <div class="card">
+                    <h4>Avenger's Skills</h4>
+                    <ol class="skills">
+                        <li>Avenger</li>
+                        <li>Memory Correction</li>
+                        <li>Self-Replenishment</li>
+                    </ol>
+                </div>
+                <div><img src="avenger.png" alt="avenger" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Moon Cancer's Skills</h4>
+                    <ol class="skills">
+                        <li>Item Construction</li>
+                        <li>Magic Resistance</li>
+                        <li>Territory Creation</li>
+                    </ol>
+                </div>
+                <div><img src="MoonCancer.jpg" alt="mooncancer" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Ruler's Skills</h4>
+                    <ol class="skills">
+                        <li>True Name Discernment</li>
+                        <li>Magic Resistance</li>
+                        <li>God's Will</li>
+                    </ol>
+                </div>
+                <div><img src="ruler.jpg" alt="ruler" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Alter Ego's Skills</h4>
+                    <ol class="skills">
+                        <li>Id_es</li>
+                    </ol>
+                </div>
+                <div><img src="alterego.png" alt="Alter Ego" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Voyager's Skills</h4>
+                    <ol class="skills">
+                        <li>Not Known Yet</li>
+                    </ol>
+                </div>
+                <div><img src="Voyager.png" alt="Voyager" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Foreigner's Skills</h4>
+                    <ol class="skills">
+                        <li>Existence Outside the Domain</li>
+                        <li>Divinity</li>
+                    </ol>
+                </div>
+                <div><img src="foreigner.jpg" alt="foreigner" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Shielder's Skills</h4>
+                    <ol class="skills">
+                        <li>Magic Resistance</li>
+                        <li>Riding</li>
+                    </ol>
+                </div>
+                <div><img src="shielder.png" alt="shielder" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Saver's Skills</h4>
+                    <ol class="skills">
+                        <li>Charisma</li>
+                        <li>Counter Hero</li>
+                    </ol>
+                </div>
+                <div><img src="saver.png" alt="saver" class="img"></div>
+            </div>
+            <div class="inner">
+                <div class="card">
+                    <h4>Faker's Skills</h4>
+                    <ol class="skills">
+                        <li>Not Known Yet</li>
+                    </ol>
+                </div>
+                <div><img src="faker.png" alt="Faker" class="img"></div>
+            </div>
+        </div>
+        <div class="extraclasscardsdetails">
+            <center>
+                <h1>Extra Classes</h1>
+            </center>
+            <br />
+            <article>
+                Besides the 7 Standard Classes of Servants there also exists Extra Classes of Servants which usually are not used in the Holy Wars but sometimes as "a precaution" or as "an edge to win the war" can be used.
+            </article>
+            <br />
+            <article>
+                There are a total of 18 Extra Classes- Alter Ego, Ancient Giant, Ancient God, Avenger, Beasts, Faker, Foreigner, Funny Vamp, Gatekeeper, Grand Servants, Gunner, Moon Cancer, Non-classed Servants, Ruler, Saver, Shielder, Voyager and Watcher. Wow, its actually
+                a complete clusterfuck!
+            </article>
+            <br />
+            <article>
+                The Class Skills of many of the Extra Classes are still unknown and even on which basis a Servant can be categorized in an Extra Class is also sometimes unknown.
+            </article>
+            <br />
+            <article>
+                An Extra Class Servant, Ruler named Jeanne D'arc can be found in the anime Fate/Apocrypha deployed by the Church to overseer the Holy War as a precautionary measure. Rulers are powerful beings with resistance to magic, the ability to ascertain the natures
+                of their foes and the ability to use Command Spells to administer binding orders, generally a privilege reserved for Masters.
+            </article>
+            <br />
+            <article>
+                Another Extra Class Servant, Avenger named Angra Mainyu can be found in 3rd, 4th, 5th and 6th Holy Grail War but not spoiling much I advise to finish the main storyline of Fate/Stay Night and then come back for detailed explanation.
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <center>
+            <ul id="outerlist">
+                <li>
+                    <img src="logo4.svg" alt="" width="100" height="100">
+                    <h6>Fate/Stay Night Project</h6>
+                </li>
+                <ul id="innerlist">
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li> | </li>
+                    <li>
+                        <a href="#">Suggestions</a>
+                    </li>
+                    <li> | </li>
+                    <li>
+                        <a href="#">About Me</a>
+                    </li>
+                    <li> | </li>
+                    <li>
+                        <a href="#">Contact Me</a>
+                    </li>
+                </ul>
+            </ul>
+            <hr>
+            <h6>&copy; 2021 Atish Gupta</h6>
+        </center>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+
+</html>
